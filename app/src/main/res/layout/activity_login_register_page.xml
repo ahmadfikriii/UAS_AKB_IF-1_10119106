@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginRegisterPageActivity"
+    android:background="@color/colorBackground">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/circle_bg"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/imgCircle"/>
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image1"
+        android:layout_below="@id/imgCircle"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/mobileApp"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mobileApp"
+        android:text="Get things done with TODo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/lettersforlearners"
+        android:textStyle="bold"
+        android:id="@+id/txt_1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_1"
+        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the , "
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/lettersforlearners"
+        android:id="@+id/txt_2"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_2"
+        android:width="300dp"
+        android:text="LOGIN"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/lettersforlearners"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btnLogin"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnLogin"
+        android:width="300dp"
+        android:text="REGISTER"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/lettersforlearners"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btnRegister"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnRegister"
+        android:width="300dp"
+        android:height="60dp"
+        android:text="Sign in with Google"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/google_logo"
+        android:id="@+id/btnSignIn"/>
+
+</RelativeLayout>

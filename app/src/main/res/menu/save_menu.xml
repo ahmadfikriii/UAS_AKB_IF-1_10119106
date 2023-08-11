@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/baseline_close_24"
+        android:iconTint="@color/white"
+        android:title="Hapus"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/save"
+        android:icon="@drawable/baseline_check_24"
+        android:title="Simpan"
+        android:iconTint="@color/white"
+        app:showAsAction="ifRoom" />
+</menu>

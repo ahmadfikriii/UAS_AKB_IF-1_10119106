@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item>
+    <layer-list>
+        <item>
+            <shape android:shape="rectangle">
+                <solid android:color="#FF8C00"/>
+                <padding android:right="12dp"
+                    android:left="12dp"/>
+                <corners android:radius="4dp"/>
+            </shape>
+        </item>
+        <item android:drawable="@drawable/baseline_arrow_drop_down_24"
+            android:gravity="end"/>
+    </layer-list>
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="#ffff"
+        android:textSize="16sp"
+        />
+</item>
+
+</selector>
